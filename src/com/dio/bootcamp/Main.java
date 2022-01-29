@@ -60,8 +60,9 @@ public class Main {
         //Área dos quadriláteros notáveis utilizando sobrecarga de método
 
         Quadrilatero.area(3);
-        Quadrilatero.area(6, 7);
+        Quadrilatero.area(6d, 7d);
         Quadrilatero.area(5, 7, 3);
+        Quadrilatero.area(6f, 8f);
 
         System.out.println("");
         System.out.println("-----------------------------------------------------------------------");
